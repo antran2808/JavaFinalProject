@@ -1,0 +1,41 @@
+
+#detail{
+    .card-top{
+        display: block;
+        width: 100%;
+        height: fit-content;
+
+        .card-img{
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .card-center{
+        display: block;
+        width: 100%;
+        padding: 1rem .5rem;
+
+        .card-name{
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: var(--black);
+            text-align: justify;
+        }
+
+        .card-description{
+            font-size: 1.4rem;
+            font-weight: 200;
+            color: var(--black);
+            text-align: justify;
+        }
+    }
+
+    .card-bottom{
+        padding: .5rem .5rem;
+        color: var(--red);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

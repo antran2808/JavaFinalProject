@@ -1,0 +1,122 @@
+#assign{
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+
+    .login-form{
+        display: block;
+        width: 60rem;
+        height: fit-content;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 1rem;
+        box-shadow: 0 0 10px 0 rgba(0,0,0,.3);
+        padding: 6rem 3rem;
+
+        .form-title{
+            display: block;
+            width: 100%;
+            font-size: 3rem;
+            font-weight: 800;
+            text-align: center;
+        }
+
+        .form-err{
+            display: block;
+            width: 100%;
+            text-align: center;
+            color: var(--red);
+            font-size: 1.8rem;
+            font-weight: 600;
+            padding: 2rem;
+            padding-top: 0 ;
+        }
+
+        .form-block{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            height: fit-content;
+            margin-bottom: 2rem;
+
+            .form-lbl{
+                display: block;
+                width: 35%;
+                font-size: 1.8rem;
+                color: var(--black);
+            }
+
+            .form-txt{
+                display: block;
+                width: 65%;
+                font-family: var(--poppins);
+                font-size: 1.8rem;
+                color: var(--black);
+                outline: none;
+                border: 1px solid var(--dark-grey);
+                padding: .5rem 1rem;
+                border-radius:.5rem;
+            }
+
+            .form-btn{
+                display: block;
+                width: 100%;
+                outline: none;
+                border: none;
+                background-color: var(--grey);
+                color: var(--black);
+                padding: 1rem;
+                font-size: 2rem;
+                cursor: pointer;
+                transition: .1s ease;
+                border-radius: 3rem;
+
+                &:hover{
+                    background-color: var(--black);
+                    color: var(--white);
+                    transition: .1s ease;
+                }
+            }
+
+            &:nth-child(1){
+                margin-top:2rem;
+            }
+        }
+
+        .select-block{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .form-slc{
+                display: block;
+                width: 65%;
+                font-family: var(--poppins);
+                font-size: 1.8rem;
+                outline: none;
+                border: 1px solid var(--dark-grey);
+                background-color: var(--white);
+                color: var(--black);
+                padding: .5rem 1rem;
+                cursor: pointer;
+                border-radius: .5rem;
+            }
+        }
+
+        .txt-link{
+            display: block;
+            color: var(--black);
+            text-align: center;
+            text-decoration: none;
+
+            &:hover{
+                color: var(--blue);
+            }
+        }
+    }
+}
