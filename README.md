@@ -35,3 +35,4 @@ The project contains several classes with methods and functions. Some of the mai
 - `EstateMapper.java`: Contains methods for mapping estate data from the database to Java objects.
 
 For more details, please refer to the source code in the [`src/main/java/vn/edu/tdt/finalproject`](FinalProject/src/main/java/vn/edu/tdt/finalproject) directory.
+Demo: ([https://youtu.be/Vmlmg0m0K1I](https://www.youtube.com/watch?v=Vmlmg0m0K1I&feature=youtu.be)).
